@@ -1,0 +1,35 @@
+{
+  "news": {
+    "settings": "",
+    "sources": "https://api.stonkmarket.de/api/v1/news/sites/",
+    "feed": "https://api.stonkmarket.de/api/v1/news/articles/?limit=10"
+  },
+  "riskfreerate": {
+    "all_rates": "https://api.stonkmarket.de/api/v1/riskfree/",
+    "url": "https://api.stonkmarket.de/api/v1/riskfree/last/"
+  },
+  "plus500": {
+    "url": "https://api.stonkmarket.de/api/v1/instruments/public/",
+    "all_current_url": "https://api.stonkmarket.de/api/v1/instruments/?current=true"
+  },
+  "earnings": {
+    "url": "https://api.stonkmarket.de/api/v1/earnings/public/",
+    "alpha_url": "https://api.stonkmarket.de/api/v1/earnings/",
+    "nasdaq_url": "https://api.stonkmarket.de/api/v1/earnings/extra/"
+  },
+  "dividends": {
+    "url": "https://api.stonkmarket.de/api/v1/dividends/public/"
+  },
+  "economic_events": {
+    "url": "https://api.stonkmarket.de/api/v1/economics/public/"
+  },
+  "settings": {
+    "storage": "https://api.stonkmarket.de/api/v1/settings/storage"
+  },
+  "prices": {
+    "per_symbol": "https://api.stonkmarket.de/api/v1/companies/prices/public/?symbol="
+  },
+  "signals": {
+    "quick": "https://api.stonkmarket.de/api/v1/signals/quick"
+  }
+}
