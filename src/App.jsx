@@ -15,17 +15,19 @@ export default function App() {
   return (
     <>
       <Navbar />
-      <Signal />
-      <Prices symbol={"MSFT"} />
-      <Storage />
-      <RiskFreeRate />
-      <Dividends />
-      <Earnings />
-      <section className='md:flex'>
-        <Newsfeed />
-      </section>
-      <Plus500 />
-      <Economics />
+      <div className='px-4'>
+        <Signal />
+        <Prices symbol={"MSFT"} />
+        <Storage />
+        <RiskFreeRate />
+        <Dividends />
+        <Earnings />
+        <section className='md:flex'>
+          <Newsfeed />
+        </section>
+        <Plus500 />
+        <Economics />
+      </div>
       <Footer />
       <Cookie />
     </>
